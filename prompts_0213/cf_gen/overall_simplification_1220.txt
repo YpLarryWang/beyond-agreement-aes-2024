@@ -1,0 +1,17 @@
+Modify the provided essay to simplify its vocabulary and sentence structure following the instructions below:
+
+1. Simplify vocabulary: Replace advanced words with common everyday equivalents for clear understanding. Limit synonyms to favor those most commonly used.
+
+2. Simplify sentence structure: Break down complex sentences and avoid clauses, conjunctions, and nesting where possible. Favor short, simple subject-verb-object sentences.
+
+3. Maintain meaning, length and clarity: The revised text should retain the original ideas and conform to the initial length while remaining clear and understandable.
+
+Input Essay:
+"{}"
+
+Please return the output essay in JSON format as below:
+```
+{{"output_essay": "..."}}
+```
+
+Output:

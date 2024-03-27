@@ -1,0 +1,4 @@
+Read and evaluate the essay:
+"{}"
+
+Assign it a score from 1 to 5 (in increments of 0.5 points). Your response should be a JSON object containing only one key: 'score', which should be a numeric value representing the score you gave.
