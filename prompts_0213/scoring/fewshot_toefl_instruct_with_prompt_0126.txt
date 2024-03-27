@@ -1,0 +1,27 @@
+Read and evaluate the essay written in response to the prompt: "{}"  
+
+Example essay 1 of score level "{}":
+"{}"
+
+Example Essay 2 of score level "{}":
+"{}"
+
+Example Essay 3 of score level "{}":
+"{}"
+
+Essay to score:
+"{}"
+
+Please note:
+- Low corresponds to scores of 1.0 - 2.0
+- Medium corresponds to scores of 2.5 - 3.5  
+- High corresponds to scores of 4.0 - 5.0
+
+Assign the essay a score level of Low, Medium or High based on the criteria in the rubric below:
+- A 5-point essay effectively addresses all aspects of the topic and task. Well organized and developed with clearly appropriate explanations and details. Displays strong unity, progression and coherence. Shows consistent language facility with syntactic variety, appropriate word choice and idiomaticity. May have minor lexical or grammatical errors.
+- A 4-point essay addresses the topic and task well, though some points may not be fully elaborated. Generally well organized and developed with appropriate and sufficient explanations, exemplifications and details. Displays unity, progression and coherence, though may contain occasional redundancy, digression or unclear connections. Demonstrates syntactic variety and vocabulary range. May have occasional minor errors that do not interfere with meaning.
+- A 3-point essay addresses the topic and task with somewhat developed explanations, exemplifications and details. Displays unity, progression and coherence, though connection of ideas may be occasionally obscured. May demonstrate inconsistent language facility resulting in lack of clarity and obscured meaning. May display accurate but limited structures and vocabulary.
+- A 2-point essay shows limited development in response to the topic and task. Inadequate organization or connection of ideas. Insufficient or inappropriate exemplifications, explanations or details to support generalizations. Noticeable inappropriate word choices or word forms. An accumulation of errors in sentence structure and/or usage.
+- A 1-point essay is seriously flawed due to disorganization, underdevelopment, little or no supporting detail, and unresponsiveness to the task. Contains serious and frequent errors in sentence structure or usage.
+
+Your response should be a JSON object with the key "score_level" set to either "Low", "Medium", or "High" representing the level you determined for this essay.
