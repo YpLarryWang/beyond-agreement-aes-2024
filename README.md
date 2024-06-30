@@ -6,7 +6,7 @@ This repo contains:
    - `cf_gen`: user messages used to generate counterfactual samples
    - `scoring`: user messages used to score the essays (both the original and the counterfactual samples)
    - `feedback`: user messages used to generate feedback
-2. the test sets and corresponding counterfactual samples for both the TOEFL11 and ELLIPSE datasets in directory `data/`, specifically, counterfactual samples are stored in sub-directory `data/${DATASET_NAME}/cfact`.
+2. the test set essays and corresponding counterfactual essays for both the TOEFL11 and ELLIPSE datasets in directory `data/`, specifically, counterfactual samples are stored in sub-directory `data/${DATASET_NAME}/cfact`.
 3. few-shot examples for both the TOEFL11 and ELLIPSE datasets in directory `data/`. Both files are called `medoids_dict.json`
 4. Python and shell scripts to control the whole experimental process:
    1. for detail of counterfactual generation, please refer to sub-directory `cf_gen_exp/`;
